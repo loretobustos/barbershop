@@ -1,0 +1,43 @@
+/* Base Stiles*/
+
+body {
+    height: 100vh;
+    background-color: $white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+}
+
+.texto_post {
+    color: $white;
+    text-align: center;
+    width: auto;
+    height: 200px;
+    font-family: $texto_post;
+    font-size: 80px;
+    margin: 300px 0;
+    line-height: 70px;
+}
+
+.blog {
+    color: $fuzzy;
+}
+
+.paginas {
+    color: $fuzzy;
+}
+
+.pagination {
+    li {
+        a {
+            color: $dark;
+        }
+    }
+}
+
+.footer {
+    width: auto;
+    height: 100px;
+    margin: 50px 0;
+    text-align: center;
+}
